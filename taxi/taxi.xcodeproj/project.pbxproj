@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F2754742A3BD846812A9207 /* Pods_taxi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7417466BC50BD532F6B6EA /* Pods_taxi.framework */; };
+		2E70F7E09161BEF47043CA6F /* Pods_taxiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A64FD76D71DDEF7AC7D1D /* Pods_taxiTests.framework */; };
+		5B1C3D5221B991A300A5B959 /* PoiMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C3D5121B991A300A5B959 /* PoiMapViewModel.swift */; };
+		5B25775521C96D1B00FFAB17 /* PoiMapViewControllerTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B25775421C96D1B00FFAB17 /* PoiMapViewControllerTestCase.swift */; };
+		5B2B9D7B21B59BE1001600C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2B9D7A21B59BE1001600C2 /* AppDelegate.m */; };
+		5B2B9D7E21B59BE1001600C2 /* PoiListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2B9D7D21B59BE1001600C2 /* PoiListViewController.m */; };
+		5B2B9D8121B59BE1001600C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2B9D7F21B59BE1001600C2 /* Main.storyboard */; };
+		5B2B9D8321B59BE2001600C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2B9D8221B59BE2001600C2 /* Assets.xcassets */; };
+		5B2B9D8621B59BE2001600C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2B9D8421B59BE2001600C2 /* LaunchScreen.storyboard */; };
+		5B2B9D8921B59BE2001600C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2B9D8821B59BE2001600C2 /* main.m */; };
+		5B2B9DA121B59EC4001600C2 /* PoiMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2B9DA021B59EC4001600C2 /* PoiMapViewController.swift */; };
+		5B4980B021B69501009934D2 /* Poi.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4980AF21B69501009934D2 /* Poi.m */; };
+		5B8274A021BBE7CA00C151C7 /* PoiMapViewModelTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B82749F21BBE7CA00C151C7 /* PoiMapViewModelTestCase.swift */; };
+		5B8274AA21BD12F900C151C7 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8274A921BD12F900C151C7 /* Constants.m */; };
+		5B8274AF21BD2A2C00C151C7 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8274AE21BD2A2C00C151C7 /* UIImage+Extension.swift */; };
+		5B8274B121BD2CE900C151C7 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8274B021BD2CE900C151C7 /* AlertHelper.swift */; };
+		5B8274B421BD43B200C151C7 /* PoiModelTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8274B321BD43B200C151C7 /* PoiModelTestCase.m */; };
+		5BFCEC7B21B6DCDE00D0C858 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFCEC7A21B6DCDE00D0C858 /* NetworkManager.m */; };
+		5BFCEC7F21B7CEFB00D0C858 /* PoiListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFCEC7E21B7CEFB00D0C858 /* PoiListTableViewCell.m */; };
+		5BFCEC8421B7DFC300D0C858 /* PoiListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFCEC8321B7DFC300D0C858 /* PoiListViewModel.m */; };
+		5BFCEC8A21B852D100D0C858 /* PoiListViewModelTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFCEC8921B852D100D0C858 /* PoiListViewModelTestCase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B2B9D8F21B59BE2001600C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2B9D6E21B59BE1001600C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B2B9D7521B59BE1001600C2;
+			remoteInfo = mytaxi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23D382A9BC309C0BF2A8BD34 /* Pods-taxi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxi.release.xcconfig"; path = "Pods/Target Support Files/Pods-taxi/Pods-taxi.release.xcconfig"; sourceTree = "<group>"; };
+		49A9AD3436A0491700571B82 /* Pods-taxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taxi/Pods-taxi.debug.xcconfig"; sourceTree = "<group>"; };
+		5B1C3D5121B991A300A5B959 /* PoiMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoiMapViewModel.swift; sourceTree = "<group>"; };
+		5B25775421C96D1B00FFAB17 /* PoiMapViewControllerTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoiMapViewControllerTestCase.swift; sourceTree = "<group>"; };
+		5B2B9D7621B59BE1001600C2 /* taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2B9D7921B59BE1001600C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B2B9D7A21B59BE1001600C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B2B9D7C21B59BE1001600C2 /* PoiListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoiListViewController.h; sourceTree = "<group>"; };
+		5B2B9D7D21B59BE1001600C2 /* PoiListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoiListViewController.m; sourceTree = "<group>"; };
+		5B2B9D8021B59BE1001600C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B2B9D8221B59BE2001600C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B2B9D8521B59BE2001600C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B2B9D8721B59BE2001600C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2B9D8821B59BE2001600C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B2B9D8E21B59BE2001600C2 /* taxiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taxiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2B9D9421B59BE2001600C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2B9D9D21B59E5D001600C2 /* taxi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "taxi-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B2B9DA021B59EC4001600C2 /* PoiMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoiMapViewController.swift; sourceTree = "<group>"; };
+		5B4980AE21B694EA009934D2 /* Poi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Poi.h; sourceTree = "<group>"; };
+		5B4980AF21B69501009934D2 /* Poi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Poi.m; sourceTree = "<group>"; };
+		5B82749F21BBE7CA00C151C7 /* PoiMapViewModelTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoiMapViewModelTestCase.swift; sourceTree = "<group>"; };
+		5B8274A121BBE88F00C151C7 /* taxiTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "taxiTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B8274A821BD12F900C151C7 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5B8274A921BD12F900C151C7 /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		5B8274AC21BD188F00C151C7 /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		5B8274AE21BD2A2C00C151C7 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		5B8274B021BD2CE900C151C7 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		5B8274B321BD43B200C151C7 /* PoiModelTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoiModelTestCase.m; sourceTree = "<group>"; };
+		5BFCEC7A21B6DCDE00D0C858 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		5BFCEC7C21B6DCEB00D0C858 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		5BFCEC7D21B7CEFB00D0C858 /* PoiListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoiListTableViewCell.h; sourceTree = "<group>"; };
+		5BFCEC7E21B7CEFB00D0C858 /* PoiListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoiListTableViewCell.m; sourceTree = "<group>"; };
+		5BFCEC8221B7DFC300D0C858 /* PoiListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoiListViewModel.h; sourceTree = "<group>"; };
+		5BFCEC8321B7DFC300D0C858 /* PoiListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoiListViewModel.m; sourceTree = "<group>"; };
+		5BFCEC8921B852D100D0C858 /* PoiListViewModelTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoiListViewModelTestCase.m; sourceTree = "<group>"; };
+		68BCD22821AE0F3A60172E17 /* Pods-taxiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-taxiTests/Pods-taxiTests.release.xcconfig"; sourceTree = "<group>"; };
+		889A64FD76D71DDEF7AC7D1D /* Pods_taxiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taxiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A2ED69B6646E515CCF0EF5 /* Pods-taxiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taxiTests/Pods-taxiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC7417466BC50BD532F6B6EA /* Pods_taxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B2B9D7321B59BE1001600C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2754742A3BD846812A9207 /* Pods_taxi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2B9D8B21B59BE2001600C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E70F7E09161BEF47043CA6F /* Pods_taxiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51335943DC1DB666FCC4B9C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC7417466BC50BD532F6B6EA /* Pods_taxi.framework */,
+				889A64FD76D71DDEF7AC7D1D /* Pods_taxiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B1C3D5321B9A0B800A5B959 /* PoiCell */ = {
+			isa = PBXGroup;
+			children = (
+				5BFCEC7D21B7CEFB00D0C858 /* PoiListTableViewCell.h */,
+				5BFCEC7E21B7CEFB00D0C858 /* PoiListTableViewCell.m */,
+			);
+			path = PoiCell;
+			sourceTree = "<group>";
+		};
+		5B25775321C96CFA00FFAB17 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5B25775421C96D1B00FFAB17 /* PoiMapViewControllerTestCase.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5B2B9D6D21B59BE1001600C2 = {
+			isa = PBXGroup;
+			children = (
+				5B2B9D7821B59BE1001600C2 /* taxi */,
+				5B2B9D9121B59BE2001600C2 /* taxiTests */,
+				5B2B9D7721B59BE1001600C2 /* Products */,
+				D4F2C146BCEA906994A8B76A /* Pods */,
+				51335943DC1DB666FCC4B9C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B2B9D7721B59BE1001600C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B2B9D7621B59BE1001600C2 /* taxi.app */,
+				5B2B9D8E21B59BE2001600C2 /* taxiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B2B9D7821B59BE1001600C2 /* taxi */ = {
+			isa = PBXGroup;
+			children = (
+				5B2B9D7921B59BE1001600C2 /* AppDelegate.h */,
+				5B2B9D7A21B59BE1001600C2 /* AppDelegate.m */,
+				5B2B9D7F21B59BE1001600C2 /* Main.storyboard */,
+				5B2B9D8221B59BE2001600C2 /* Assets.xcassets */,
+				5B2B9D8421B59BE2001600C2 /* LaunchScreen.storyboard */,
+				5B4980A921B665BC009934D2 /* Model */,
+				5B82749621BBDE4700C151C7 /* Scenes */,
+				5BFCEC7921B6DAF500D0C858 /* Networking */,
+				5B8274AB21BD15CF00C151C7 /* Reusables */,
+				5B2B9D8721B59BE2001600C2 /* Info.plist */,
+				5B2B9D8821B59BE2001600C2 /* main.m */,
+				5B2B9D9D21B59E5D001600C2 /* taxi-Bridging-Header.h */,
+			);
+			path = taxi;
+			sourceTree = "<group>";
+		};
+		5B2B9D9121B59BE2001600C2 /* taxiTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B25775321C96CFA00FFAB17 /* ViewController */,
+				5B8274B621BD43BD00C151C7 /* ViewModel */,
+				5B8274B521BD43B700C151C7 /* Model */,
+				5B2B9D9421B59BE2001600C2 /* Info.plist */,
+				5B8274A121BBE88F00C151C7 /* taxiTests-Bridging-Header.h */,
+			);
+			path = taxiTests;
+			sourceTree = "<group>";
+		};
+		5B4980A921B665BC009934D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B4980AE21B694EA009934D2 /* Poi.h */,
+				5B4980AF21B69501009934D2 /* Poi.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B82749621BBDE4700C151C7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5B82749721BBDE7900C151C7 /* PoiList */,
+				5B82749821BBDE8F00C151C7 /* PoiMap */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5B82749721BBDE7900C151C7 /* PoiList */ = {
+			isa = PBXGroup;
+			children = (
+				5B1C3D5321B9A0B800A5B959 /* PoiCell */,
+				5B2B9D7C21B59BE1001600C2 /* PoiListViewController.h */,
+				5B2B9D7D21B59BE1001600C2 /* PoiListViewController.m */,
+				5BFCEC8221B7DFC300D0C858 /* PoiListViewModel.h */,
+				5BFCEC8321B7DFC300D0C858 /* PoiListViewModel.m */,
+			);
+			path = PoiList;
+			sourceTree = "<group>";
+		};
+		5B82749821BBDE8F00C151C7 /* PoiMap */ = {
+			isa = PBXGroup;
+			children = (
+				5B2B9DA021B59EC4001600C2 /* PoiMapViewController.swift */,
+				5B1C3D5121B991A300A5B959 /* PoiMapViewModel.swift */,
+			);
+			path = PoiMap;
+			sourceTree = "<group>";
+		};
+		5B8274AB21BD15CF00C151C7 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				5B8274B221BD415300C151C7 /* Helpers */,
+				5B8274A821BD12F900C151C7 /* Constants.h */,
+				5B8274A921BD12F900C151C7 /* Constants.m */,
+				5B8274AC21BD188F00C151C7 /* Defines.h */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		5B8274B221BD415300C151C7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5B8274B021BD2CE900C151C7 /* AlertHelper.swift */,
+				5B8274AE21BD2A2C00C151C7 /* UIImage+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5B8274B521BD43B700C151C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B8274B321BD43B200C151C7 /* PoiModelTestCase.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B8274B621BD43BD00C151C7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5B82749F21BBE7CA00C151C7 /* PoiMapViewModelTestCase.swift */,
+				5BFCEC8921B852D100D0C858 /* PoiListViewModelTestCase.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5BFCEC7921B6DAF500D0C858 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5BFCEC7A21B6DCDE00D0C858 /* NetworkManager.m */,
+				5BFCEC7C21B6DCEB00D0C858 /* NetworkManager.h */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D4F2C146BCEA906994A8B76A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49A9AD3436A0491700571B82 /* Pods-taxi.debug.xcconfig */,
+				23D382A9BC309C0BF2A8BD34 /* Pods-taxi.release.xcconfig */,
+				90A2ED69B6646E515CCF0EF5 /* Pods-taxiTests.debug.xcconfig */,
+				68BCD22821AE0F3A60172E17 /* Pods-taxiTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B2B9D7521B59BE1001600C2 /* taxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2B9D9721B59BE2001600C2 /* Build configuration list for PBXNativeTarget "taxi" */;
+			buildPhases = (
+				48D81C04D50F2D0A4E4DCF42 /* [CP] Check Pods Manifest.lock */,
+				5B2B9D7221B59BE1001600C2 /* Sources */,
+				5B2B9D7321B59BE1001600C2 /* Frameworks */,
+				5B2B9D7421B59BE1001600C2 /* Resources */,
+				F81CF2A5D40B5EC57C9964C4 /* [CP] Embed Pods Frameworks */,
+				CA052571A460C9EB27406433 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = taxi;
+			productName = mytaxi;
+			productReference = 5B2B9D7621B59BE1001600C2 /* taxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B2B9D8D21B59BE2001600C2 /* taxiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2B9D9A21B59BE2001600C2 /* Build configuration list for PBXNativeTarget "taxiTests" */;
+			buildPhases = (
+				74F12FCF20230A4078557BD1 /* [CP] Check Pods Manifest.lock */,
+				5B2B9D8A21B59BE2001600C2 /* Sources */,
+				5B2B9D8B21B59BE2001600C2 /* Frameworks */,
+				5B2B9D8C21B59BE2001600C2 /* Resources */,
+				FB3F28F556337B4CFB5869BE /* [CP] Embed Pods Frameworks */,
+				0145FC4C8A63C6586A7047E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B2B9D9021B59BE2001600C2 /* PBXTargetDependency */,
+			);
+			name = taxiTests;
+			productName = mytaxiTests;
+			productReference = 5B2B9D8E21B59BE2001600C2 /* taxiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B2B9D6E21B59BE1001600C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Omer Kolkanat";
+				TargetAttributes = {
+					5B2B9D7521B59BE1001600C2 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					5B2B9D8D21B59BE2001600C2 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 5B2B9D7521B59BE1001600C2;
+					};
+				};
+			};
+			buildConfigurationList = 5B2B9D7121B59BE1001600C2 /* Build configuration list for PBXProject "taxi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B2B9D6D21B59BE1001600C2;
+			productRefGroup = 5B2B9D7721B59BE1001600C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B2B9D7521B59BE1001600C2 /* taxi */,
+				5B2B9D8D21B59BE2001600C2 /* taxiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B2B9D7421B59BE1001600C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2B9D8621B59BE2001600C2 /* LaunchScreen.storyboard in Resources */,
+				5B2B9D8321B59BE2001600C2 /* Assets.xcassets in Resources */,
+				5B2B9D8121B59BE1001600C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2B9D8C21B59BE2001600C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0145FC4C8A63C6586A7047E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taxiTests/Pods-taxiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48D81C04D50F2D0A4E4DCF42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-taxi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74F12FCF20230A4078557BD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-taxiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA052571A460C9EB27406433 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taxi/Pods-taxi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F81CF2A5D40B5EC57C9964C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-taxi/Pods-taxi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taxi/Pods-taxi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3F28F556337B4CFB5869BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taxiTests/Pods-taxiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B2B9D7221B59BE1001600C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8274B121BD2CE900C151C7 /* AlertHelper.swift in Sources */,
+				5BFCEC7F21B7CEFB00D0C858 /* PoiListTableViewCell.m in Sources */,
+				5BFCEC7B21B6DCDE00D0C858 /* NetworkManager.m in Sources */,
+				5B4980B021B69501009934D2 /* Poi.m in Sources */,
+				5BFCEC8421B7DFC300D0C858 /* PoiListViewModel.m in Sources */,
+				5B2B9D7E21B59BE1001600C2 /* PoiListViewController.m in Sources */,
+				5B8274AA21BD12F900C151C7 /* Constants.m in Sources */,
+				5B1C3D5221B991A300A5B959 /* PoiMapViewModel.swift in Sources */,
+				5B2B9D8921B59BE2001600C2 /* main.m in Sources */,
+				5B2B9D7B21B59BE1001600C2 /* AppDelegate.m in Sources */,
+				5B8274AF21BD2A2C00C151C7 /* UIImage+Extension.swift in Sources */,
+				5B2B9DA121B59EC4001600C2 /* PoiMapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2B9D8A21B59BE2001600C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8274B421BD43B200C151C7 /* PoiModelTestCase.m in Sources */,
+				5B8274A021BBE7CA00C151C7 /* PoiMapViewModelTestCase.swift in Sources */,
+				5B25775521C96D1B00FFAB17 /* PoiMapViewControllerTestCase.swift in Sources */,
+				5BFCEC8A21B852D100D0C858 /* PoiListViewModelTestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B2B9D9021B59BE2001600C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B2B9D7521B59BE1001600C2 /* taxi */;
+			targetProxy = 5B2B9D8F21B59BE2001600C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B2B9D7F21B59BE1001600C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B2B9D8021B59BE1001600C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B2B9D8421B59BE2001600C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B2B9D8521B59BE2001600C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B2B9D9521B59BE2001600C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B2B9D9621B59BE2001600C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B2B9D9821B59BE2001600C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A9AD3436A0491700571B82 /* Pods-taxi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RAQF392F68;
+				INFOPLIST_FILE = taxi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kolkanat.taxi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "taxi/taxi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B2B9D9921B59BE2001600C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D382A9BC309C0BF2A8BD34 /* Pods-taxi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RAQF392F68;
+				INFOPLIST_FILE = taxi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kolkanat.taxi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "taxi/taxi-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B2B9D9B21B59BE2001600C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A2ED69B6646E515CCF0EF5 /* Pods-taxiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAQF392F68;
+				INFOPLIST_FILE = taxiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokod.taxiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "taxiTests/taxiTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taxi.app/taxi";
+			};
+			name = Debug;
+		};
+		5B2B9D9C21B59BE2001600C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BCD22821AE0F3A60172E17 /* Pods-taxiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAQF392F68;
+				INFOPLIST_FILE = taxiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokod.taxiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "taxiTests/taxiTests-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taxi.app/taxi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B2B9D7121B59BE1001600C2 /* Build configuration list for PBXProject "taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2B9D9521B59BE2001600C2 /* Debug */,
+				5B2B9D9621B59BE2001600C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2B9D9721B59BE2001600C2 /* Build configuration list for PBXNativeTarget "taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2B9D9821B59BE2001600C2 /* Debug */,
+				5B2B9D9921B59BE2001600C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2B9D9A21B59BE2001600C2 /* Build configuration list for PBXNativeTarget "taxiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2B9D9B21B59BE2001600C2 /* Debug */,
+				5B2B9D9C21B59BE2001600C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B2B9D6E21B59BE1001600C2 /* Project object */;
+}
